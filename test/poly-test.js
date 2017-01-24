@@ -58,4 +58,3 @@ describe('The evaluator', () => {
     done();
   });
 });
-});
