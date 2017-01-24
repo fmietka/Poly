@@ -1,0 +1,21 @@
+{
+  "name": "poly",
+  "version": "1.0.0",
+  "description": "Filip and Megan class activity also Nick",
+  "main": "poly-test.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmietka/Poly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmietka/Poly/issues"
+  },
+  "homepage": "https://github.com/fmietka/Poly#readme"
+}
