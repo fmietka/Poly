@@ -1,0 +1,19 @@
+{
+  "name": "poly",
+  "version": "1.0.0",
+  "description": "Filip and Megan class activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fmietka/Poly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmietka/Poly/issues"
+  },
+  "homepage": "https://github.com/fmietka/Poly"
+}
