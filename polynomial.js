@@ -58,6 +58,19 @@ exports.evaluate = (poly, x) => {
 }
 
 if (!module.parent) {
+  if (process.argv.length < 3) {
+    console.error('Need deriv or eval subcommand');
+    process.exitCode(2);
+  } else if (process.argv[3] === 'deriv') {
+
+  } else if (process.argv[3] === 'eval') {
+
+  } else {
+    console.error('Subcommand must be eval or deriv only');
+    process.exitCode(3);
+  }
+
+
   let match = grammar.match(process.argv[2]);
   if(match.succeeded()) {
     console.log(semantics(match).deriv());
